@@ -1,5 +1,5 @@
 /* Main */
-
+/* Organize by page/section? */
 html {
 
     font-family: ;
@@ -8,19 +8,46 @@ html {
 
 body{
 
-    margin: 0;
+    margin: 15px;
+    
 
 }
 
 header {
 
     height: 50px;
-    width: 100%;
     margin: 0;
     align-items: center;
     background-color:;
     display: flex;
     justify-content: space-between;
+    padding: 0;
+
+
+}
+
+header nav ul {
+
+    display: flex;
+    justify-content:end;
+    font-family:;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 0 1rem;
+
+/* a:link {
+Color:;
+}
+a:hover {
+ Font-size:px;
+ */
+
+}
+
+header h1 {
+    margin: 0;
 
 }
 
@@ -30,8 +57,16 @@ li {
 
 footer {
 
+    display:flex;
+    justify-content: space-around;
     text-align: center;
     padding-top: 2rem;
+    padding-bottom: 1rem
+
+}
+
+img {
+    max-width: 100%;
 
 }
 
@@ -44,8 +79,7 @@ footer {
    background-position: top;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   width: 100%;
-   height: 100vh;
+   height: 70vh;
    text-align:center;
    display: flex;
    align-items:center;
@@ -53,37 +87,28 @@ footer {
 
 }
 
+
 .footerhome {
 
-}
-
-.navbar {
-    display: flex;
-    justify-content:end;
-    font-family:;
-    list-style-type: none;
-    align-items: center;
-    text-align: center;
-/* a:link {
-Color:;
-}
-a:hover {
- Font-size:px;
- */
 
 
 }
+
 
 .featproj {
     
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    max-width:80%;
+    margin:auto;
+
 
 
 }
 
 .cardproj {
+
 /* a:link {
 Color:;
 }
@@ -98,8 +123,24 @@ a:hover {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-left:19vw;
 
 
+}
+
+.aboutbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:3rem;
+
+}
+
+.aboutbar img {
+    width: 10%;
+    margin-left: 3rem;
+    border-radius: 50%;
+    
 }
 
 
@@ -142,7 +183,7 @@ a:hover {
 
 }
 
-@media all and (max width: 600px) {
+@media all and (max-width: 600px) {
 
 }
 
