@@ -1,0 +1,154 @@
+/* Main */
+
+html {
+
+    font-family: ;
+
+}
+
+body{
+
+    margin: 0;
+
+}
+
+header {
+
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    background-color:;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+footer {
+
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+/* Classes */
+
+.home {
+
+    background-image: url();
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width: 100%;
+   height: 100vh;
+   text-align:center;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+
+}
+
+.footerhome {
+
+}
+
+.navbar {
+    display: flex;
+    justify-content:end;
+    font-family:;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+/* a:link {
+Color:;
+}
+a:hover {
+ Font-size:px;
+ */
+
+
+}
+
+.featproj {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+
+}
+
+.cardproj {
+/* a:link {
+Color:;
+}
+a:hover {
+ Font-size:px;
+ */
+
+}
+
+.about {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+/*Ids */
+
+#cv {
+   
+    background: ;
+    color:;
+    font-family:;
+    padding: 1rem;
+    /* a:link {
+Color:;
+}
+a:hover {
+ Font-size:px;
+ */
+
+}
+
+#more {
+
+     /* a:link {
+Color:;
+}
+a:hover {
+ Font-size:px;
+ */
+
+}
+
+
+
+/* @media all */
+
+@media all and (max-width: 800px) {
+
+
+}
+
+@media all and (max width: 600px) {
+
+}
+
+@media all and (max-width: 460px) {
+
+
+}
+
+
